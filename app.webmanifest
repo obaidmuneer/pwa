@@ -1,0 +1,49 @@
+{
+    "name": "Hello PWA,The best PWA in the town",
+    "short_name": "Hello PWA",
+    "start_url": "/",
+    "orientation": "any",
+    "theme_color": "#ffc252",
+    "description": "The best PWA in the town",
+    "scope": "./",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "icons/144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/maskable_512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "source/1.png",
+            "sizes": "1607x910",
+            "type": "image/png",
+            "form_factor": "wide",
+            "label": "Screenshot 1"
+        },
+        {
+            "src": "source/2.png",
+            "sizes": "447x912",
+            "type": "image/png",
+            "form_factor": "narrow",
+            "label": "Screenshot 2"
+        }
+    ]
+}
