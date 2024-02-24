@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="app.webmanifest" crossorigin="use-credentials" >
+    <title>Document</title>
+    <meta name="theme-color" content="#ff52c2">
+    <link rel="apple-touch-icon" href="icons/512.png">
+    <script  src="./sw-register.js"></script>
+</head>
+
+<body>
+    <h1>Hello PWA</h1>
+    <button onclick="requestNotificationPermission()" >Enable Notifications</button>
+
+    <script type="module" src="app.mjs"></script>
+</body>
+
+</html>
